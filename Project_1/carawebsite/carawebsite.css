@@ -1,0 +1,22 @@
+*{
+    margin: 0px;
+
+}
+.header{
+    display: flex;
+    background-color: azure;
+    justify-content: space-around;
+    height: 80px;
+    position: sticky;
+}
+
+.nav-links{
+    display: flex;
+    margin-top: 30px;
+    font-size: 25px;
+    list-style: none;    
+}
+.banner-text{
+    margin-left: 20px;
+}
+

@@ -1,0 +1,298 @@
+*{
+    margin: 0px;
+    font-family: calibri;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color:#b3b3c1 ;
+    padding: 20px;
+    /* gap: 200px; */
+    position: sticky;
+    top: 0px;
+    align-items: center;
+}
+
+.nav-links{
+    text-decoration: none;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    padding: 0px 26px;
+    /* margin-right: 20px; */
+}
+a:hover{
+    color: rgb(7, 164, 164);
+    text-decoration: underline;
+}
+.nav-links > li{
+    color: black;
+}
+.n-card{
+    height: auto;
+    
+}
+.nav-links{
+    display: flex;
+    /* gap: 80px; */
+    /* padding-right: 120px; */
+    list-style: none;
+    /* margin-top: 30px; */
+    /* margin-right: 70px; */
+    font-size: 25px;
+    margin: 0px 45px;
+    /* padding: 0px 25px; */
+}
+.banner{
+    background-image: url(../images/hero4.png);
+    background-size: cover;
+    width: 100%;
+    height: 900px;
+    flex: wrap;
+    
+}   
+.banner-1{
+    background-image: url(../images/banner/b17.jpg);
+    background-repeat: no-repeat;
+    background-size: 700px 400px;
+    width: 100%;
+    padding-top: 100px;
+    padding-left:40px;
+    color: white;
+} 
+
+.banner-2{
+    background-image: url(../images/banner/b10.jpg);
+    background-repeat: no-repeat;
+    background-size: 700px 400px;
+    width: 100%;
+    height: 300px;
+    padding-top: 100px;
+    padding-left:40px;
+    color: white;
+}
+.banner-3{
+    background-image: url(../images/banner/b7.jpg);
+    background-size: 500px 100%;
+    width: 450px;
+    height: 180px;
+    background-repeat: no-repeat;
+    padding-top: 100px;
+    padding-left: 25px;
+}
+.banner-text{
+    padding-left: 170px;
+    padding-top: 200px;
+}
+.button-logo{
+    background-image: url(../images/button.png);
+    background-repeat: no-repeat;
+    padding: 15px 70px;   
+}
+.n-card{
+    border: 0.5px solid;
+    color: black;
+    width: 350px;
+    height: auto;
+}
+
+
+.nav-cards{
+    display: flex;
+    margin-top: 400px;
+    justify-content: center;
+    gap: 100px;
+}
+
+label{
+padding-left: 790px;
+font-size: 100px;
+
+}
+
+.collection-cards{
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+}
+.c-cards1{
+        padding-left: 40px;
+}
+.price-ta{
+    display: flex;
+    justify-content: space-around;
+    gap: 150px;
+    font-size: 30px;
+}
+
+.price{
+    
+    justify-content: space-evenly;
+    gap: 240px;
+    height: 40px;
+}
+.price-1{
+    color:darkcyan; 
+    margin-left: 10px; 
+    font-size: 40px;
+     font-family:  Calibri;
+}
+.icon-1 {
+    background-color: rgb(227, 188, 142);
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+.label-img1{
+    background-image: url(..//images/banner/b2.jpg);
+    width: 100%;
+    height: 200px;
+}
+
+.banner-1{
+    background-image: url(..//images/banner/b17.jpg);
+    width: 1000px;
+    height: 500px;
+    padding-left: 10px;
+    background-repeat: no-repeat;
+    background-size: 1200px;
+}
+
+.banner-2{
+    background-image: url(..//images/banner/b10.jpg);
+    width: 1000px;
+    height: 500px;
+    padding-left: 10px;
+    background-repeat: no-repeat;
+    background-size: 1200px;
+}
+.bannerform-2{
+    display: flex;
+    justify-content: space-between;
+    background-size: 200px;
+    gap: 80px;
+    
+}
+.banner-3{
+    background-image: url(..//images/banner/b7.jpg);
+    width: 610px;
+    height: 400px;
+    padding-left: 10px;
+    background-repeat: no-repeat;
+    background-size: 750px;
+}
+.banner-4{
+    background-image: url(..//images/banner/b4.jpg);
+    width: 720px;
+    height: 400px;
+    padding-left: 20px;
+    background-repeat: no-repeat;
+    background-size: 1000px;
+}
+.banner-5{
+    background-image: url(..//images/banner/b18.jpg);
+    width: 610px;
+    height: 400px;
+    padding-left: 20px;
+    background-repeat: no-repeat;
+    background-size: 750px;
+}
+.bannerform-9{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    
+}
+
+.signbox{
+    background-color: rgb(30, 30, 90);
+    height: 200px;
+    width: 100%;
+    background-image: url(../images/banner/b14.png);
+    
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 450px;
+
+}
+
+.box{
+    display: flex;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    gap: 200px;
+    font-size: 30px;
+}
+.contact{
+    line-height: 45px;
+}
+.contact>img{
+    height: 15px;
+    width: 15px;
+}
+.about>ul{
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    list-style: none;
+    
+}
+
+.ul-names >a{
+    text-decoration: none;
+}
+
+.ul-names1 > a{
+    text-decoration: none;
+}
+.account>ul{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+}
+.apps>ul{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+}
+
+
+   
+li>.img24{
+    border:2px solid black;
+    border-radius: 10px;
+}
+li>.img25{
+    border:2px solid black;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+.last li{
+    list-style: none;
+    line-height: 30px;
+    list-style: none;
+}
+.apps li{
+    line-height: 30px;
+    list-style: none;
+   
+}
+.apps-logo{
+    display: flex;
+}
+
